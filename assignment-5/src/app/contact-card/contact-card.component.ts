@@ -6,10 +6,11 @@ import { Contact } from './../models/contact';
   templateUrl: './contact-card.component.html',
   styleUrls: ['./contact-card.component.css']
 })
+
 export class ContactCardComponent implements OnInit {
-  @Input() Contact: Contact;
+  @Input() contact: Contact;
 
   constructor() {}
-
+  
   ngOnInit() {}
 }

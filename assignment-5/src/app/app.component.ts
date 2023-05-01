@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Contact } from './models/contact';
+import { CONTACT } from './data/contact-data';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'assignment-5';
+  CONTACT_LIST: Contact[] = CONTACT;
 }
